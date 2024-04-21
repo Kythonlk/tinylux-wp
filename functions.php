@@ -8,14 +8,8 @@
  * @since 1.0.0
  */
 
-/**
- * Define Constants
- */
 define( 'CHILD_THEME_BABYLUX_VERSION', '1.0.0' );
 
-/**
- * Enqueue styles
- */
 function child_enqueue_styles() {
 
 	wp_enqueue_style( 'babylux-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_BABYLUX_VERSION, 'all' );
@@ -38,7 +32,7 @@ add_filter('woocommerce_currencies', 'add_aed_currency');
 add_filter('woocommerce_currency_symbol', 'add_aed_currency_symbol', 10, 2);
 
 function add_aed_currency($currencies) {
-    $currencies['AED'] = __('UAE Dirham (AED)', 'your-text-domain');
+    $currencies['AED'] = __('UAE Dirham (AED)', 'babylux');
     return $currencies;
 }
 

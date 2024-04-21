@@ -1,4 +1,3 @@
-
 <div class="flex justify-center py-20 px-4 bg-sky-200">
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
         <?php
@@ -11,9 +10,9 @@
             global $product;
         ?>
             <div class="col-span-1 rounded bg-white shadow hover:bg-gray-100">
-<?php if ( $product->is_on_sale() ) : ?>
-    <div class="sale absolute px-3 py-1 m-2 z-10 text-white rounded-lg shadow-lg text-xs bg-red-500">Sale</div>
-<?php endif; ?>
+                <?php if ( $product->is_on_sale() ) : ?>
+                    <div class="sale absolute px-3 py-1 m-2 z-10 text-white rounded-lg shadow-lg text-xs bg-red-500">Sale</div>
+                <?php endif; ?>
                 <a href="<?php the_permalink(); ?>" class="block">
                     <?php if (has_post_thumbnail()) {
                         the_post_thumbnail('full', ['class' => 'mx-auto w-full rounded-t object-cover']);
