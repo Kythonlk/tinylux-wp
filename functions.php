@@ -23,7 +23,6 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 function add_tailwindcss() {
     wp_enqueue_script('tailwindcss', 'https://cdn.tailwindcss.com');
 }
-
 add_action('wp_enqueue_scripts', 'add_tailwindcss');
 
 
