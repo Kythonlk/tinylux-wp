@@ -19,7 +19,7 @@
         From newborn essentials to toddler must-haves, we've got you covered.
       </h6>
       <div
-        class="text-white py-3 px-7 border border-[#F77F31] mr-auto rounded-lg bg-[#F77F31] text-left mt-8 font-semibold foi"
+        class="text-white py-3 px-7 mr-auto rounded-lg bg-sky-300 text-left mt-8 font-semibold foi"
       >
         <a href="#"> Shop Now </a>
       </div>
