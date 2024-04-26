@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 contactForm.reset();
             } else {
                 formResponse.innerHTML = '<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">' + data.message + '</div>';
+                console.log('Error:', formData , data);
             }
         })
         .catch(error => {
