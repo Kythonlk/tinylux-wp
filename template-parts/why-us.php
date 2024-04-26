@@ -4,7 +4,7 @@ global $babylux_features;
 $base_url = get_bloginfo('url');
 ?>
 
-<section class="bg-sky-100/80 p-4 sm:p-20">
+<section class="bg-sky-100/80 p-4 sm:p-20" id="whyus">
 <div class="px-4 sm:px-20">
   <h4 class="text-xl text-gray-600 text-left mb-8 uppercase">Why Choose Us?</h2>
   <h2 class="text-4xl font-bold text-left mb-8 uppercase">Discover the Babylux Difference</h2>

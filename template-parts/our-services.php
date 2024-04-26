@@ -3,7 +3,7 @@ global $services;
 
 ?>
 
-<section class="bg-white py-4 sm:py-20">
+<section class="bg-white py-4 sm:py-20" id="services">
     <h2 class="text-4xl font-bold text-center mb-8 uppercase">Our Services</h2>
     <div class="grid px-4  md:px-16 w-full grid-cols-1 justify-between gap-6 md:grid-cols-3 md:gap-4 md:pt-10 lg:gap-8 text-black">
     <?php foreach ($services as $service) : ?>

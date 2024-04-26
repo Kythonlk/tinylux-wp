@@ -94,6 +94,7 @@ $babylux_faq = array(
           get_template_part('template-parts/hero-service');
           get_template_part('template-parts/our-services');
           get_template_part('template-parts/why-us');
+          get_template_part('template-parts/faq');
           get_template_part('template-parts/contact-us');
     ?>
   </main>
