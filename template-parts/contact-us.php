@@ -6,7 +6,8 @@ global $babylux_faq;
     <div class="container mx-auto flex flex-wrap">
         <div class="w-full sm:w-1/2 pr-8 mb-6 md:mb-0">
             <h2 class="text-3xl font-semibold mb-4">Contact Us</h2>
-            <form action="#" method="POST" class="space-y-4">
+            <form action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="POST" class="space-y-4">
+                <input type="hidden" name="action" value="submit_contact_form">
                 <div class="mb-4">
                     <label for="name" class="block text-gray-700">Name</label>
                     <input type="text" id="name" name="name" class="form-input w-full rounded-lg">

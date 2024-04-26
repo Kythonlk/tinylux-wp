@@ -43,3 +43,22 @@ function add_aed_currency_symbol($currency_symbol, $currency) {
     }
     return $currency_symbol;
 }
+
+
+function handle_contact_form_submission() {
+    if (isset($_POST['action']) && $_POST['action'] === 'submit_contact_form') {
+        $name = sanitize_text_field($_POST['name']);
+        $email = sanitize_email($_POST['email']);
+        $message = sanitize_textarea_field($_POST['message']);
+
+        $to = 'kythonlk@gmail.com'; 
+        $subject = 'New Contact Form Submission';
+        $body = "Name: $name\n\nEmail: $email\n\nMessage:\n$message";
+        $headers = array('Content-Type: text/html; charset=UTF-8');
+
+        wp_mail($to, $subject, $body, $headers);
+    }
+}
+
+add_action('admin_post_nopriv_submit_contact_form', 'handle_contact_form_submission');
+add_action('admin_post_submit_contact_form', 'handle_contact_form_submission');
