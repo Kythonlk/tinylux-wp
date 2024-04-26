@@ -22,7 +22,7 @@ global $babylux_faq;
                 <button type="submit" class="bg-white text-blue-600 px-4 py-2 border border-blue-400 rounded hover:bg-blue-600">Send Message</button>
             </form>
         </div>
-        <div class="w-full sm:w-1/2">
+        <div class="w-full sm:w-1/2 sm:px-8">
             <h2 class="text-3xl font-semibold mb-4">Contact Details</h2>
             <div class="space-y-4 px-4">
                 <ul class="mb-6 md:mb-0">
@@ -40,8 +40,8 @@ global $babylux_faq;
                         <div class="ml-4 mb-4">
                             <h3 class="mb-2 text-lg font-medium leading-6 text-blue-700">Our Address
                             </h3>
-                            <p class="text-gray-600 ">1230 Maecenas Street Donec Road</p>
-                            <p class="text-gray-600 ">New York, EEUU</p>
+                            <p class="text-gray-600 ">Air Port Road, Al Nhayan</p>
+                            <p class="text-gray-600 ">Abu Dhabi, UAE</p>
                         </div>
                     </li>
                     <li class="flex">
@@ -56,11 +56,14 @@ global $babylux_faq;
                                 <path d="M15 3a6 6 0 0 1 6 6"></path>
                             </svg>
                         </div>
-                        <div class="ml-4 mb-4">
-                            <h3 class="mb-2 text-lg font-medium leading-6 text-blue-700">Contact
+                        <div class="ml-4 mb-4 flex flex-col gap-2">
+                            <h3 class="text-lg font-medium leading-6 text-blue-700">Contact
                             </h3>
-                            <p class="text-gray-600 ">Mobile: +1 (123) 456-7890</p>
-                            <p class="text-gray-600 ">Mail: tailnext@gmail.com</p>
+                            <p class="text-gray-600 ">Mobile: +971 56 821 0027</p>
+                            <p class="text-gray-600 ">Mail: contact@babylux.ae</p>
+                            <a href="https://wa.me/+971 56 821 0027" target="_blank">
+                              <p class="text-gray-600 underline mb-2">Whatsapp: +971 56 821 0027</p>
+                            </a>
                         </div>
                     </li>
                     <li class="flex">
@@ -75,8 +78,8 @@ global $babylux_faq;
                         <div class="ml-4 mb-4">
                             <h3 class="mb-2 text-lg font-medium leading-6  text-blue-700">Working
                                 hours</h3>
-                            <p class="text-gray-600 ">Monday - Friday: 08:00 - 17:00</p>
-                            <p class="text-gray-600 ">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                            <p class="text-gray-600 ">Monday - Friday: a.m 08:00 - p.m 10:00</p>
+                            <p class="text-gray-600 ">Saturday &amp; Sunday: a.m 08:00 - p.m 09:00</p>
                         </div>
                     </li>
                 </ul>
