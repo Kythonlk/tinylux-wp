@@ -1,5 +1,7 @@
 <?php
 global $babylux_features;
+
+$base_url = get_bloginfo('url');
 ?>
 
 <section class="bg-sky-100/80 p-4 sm:p-20">
@@ -10,8 +12,8 @@ global $babylux_features;
 
 <div class="px-4 sm:px-20">
 <div class="flex justify-between h-96 gap-4">
-  <img src="http://127.0.0.1/wordpress/wp-content/uploads/2024/04/a1.jpeg" alt="Why Choose Us" class="w-full md:w-2/6 object-cover rounded-2xl" />
-  <img src="http://127.0.0.1/wordpress/wp-content/uploads/2024/04/a2.jpeg" alt="Why Choose Us" class="w-full md:w-4/6 rounded-2xl object-cover" />
+  <img src="<?php echo $base_url; ?>/wp-content/uploads/2024/04/a1.jpeg" alt="Why Choose Us" class="w-full md:w-2/6 object-cover rounded-2xl" />
+  <img src="<?php echo $base_url; ?>/wp-content/uploads/2024/04/a2.jpeg" alt="Why Choose Us" class="w-full md:w-4/6 rounded-2xl object-cover" />
 </div>
 <div class="grid grid-cols-1 justify-between gap-6 md:grid-cols-3 md:gap-4 md:pt-10 lg:gap-8 text-black">
 

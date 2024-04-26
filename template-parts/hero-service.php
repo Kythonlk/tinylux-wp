@@ -1,6 +1,10 @@
+<?php
+$base_url = get_bloginfo('url');
+?>
+
 <section
   style="
-    background-image: url('http://127.0.0.1/wordpress/wp-content/uploads/2024/04/banner.webp');
+    background-image: url('<?php echo $base_url; ?>/wp-content/uploads/2024/04/banner.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
