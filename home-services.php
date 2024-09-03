@@ -11,7 +11,6 @@ get_header();
 
     <?php
           get_template_part('template-parts/hero-service');
-          get_template_part('template-parts/product-grid');
 ?>
   </main>
 </div>
@@ -19,3 +18,6 @@ get_header();
 <?php
 get_footer();
 ?>
+
+
+
